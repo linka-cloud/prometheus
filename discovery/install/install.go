@@ -13,6 +13,9 @@
 
 // Package install has the side-effect of registering all builtin
 // service discovery config types.
+
+//go:build !light
+
 package install
 
 import (
